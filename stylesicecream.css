@@ -1,3 +1,9 @@
 body{
     background-color: rgb(254, 213, 220);
 }
+.concrete{
+    display: flex; 
+    justify-content: center; 
+    align-items: baseline; 
+    padding-top: 20%; 
+}

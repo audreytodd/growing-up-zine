@@ -10,9 +10,15 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     padding: 0%;
+    width: 100%;
+}
+.hands{
+    display: flex;
+    justify-content: center;
 }
 
 .crosswalk{
-    contain: ;
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
