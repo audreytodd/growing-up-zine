@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(209, 234, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.maintext{
+text-align: center;
+}
+.bunnies{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+}
+
+.crosswalk{
+    contain: ;
+    width: 50%;
+}
