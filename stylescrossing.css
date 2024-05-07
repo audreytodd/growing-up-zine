@@ -1,6 +1,7 @@
 body{
     background-color: rgb(209, 234, 255);
     font-family: 'Courier New', Courier, monospace;
+    margin: auto;
 }
 
 .maintext{
@@ -13,12 +14,19 @@ text-align: center;
     width: 100%;
 }
 .hands{
+    animation: wiggle 5s infinite;
     display: flex;
     justify-content: center;
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    50%{ transform: rotate(5deg);}
+   95% { transform: rotate(-5deg); }
 }
 
 .crosswalk{
     display: flex;
     justify-content: center;
     align-items: baseline;
+    padding-bottom: 500px;
 }
