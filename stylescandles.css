@@ -1,3 +1,37 @@
 body{
     background-color: rgb(255, 231, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+.toptext{
+    padding-top: 100px;
+    text-align: center;
+}
+.candles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.candles img{
+    width: 350px;
+}
+
+.bottomtext{
+    text-align: center;
+}
+
+.flames {
+    position: relative;
+    animation: flicker 3s infinite; 
+}
+.blown{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
 }
