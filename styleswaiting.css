@@ -1,7 +1,29 @@
+body{
+    background-image: url(images/waiting\ room.png);
+    background-size: cover;
+    color: white;
+}
+
 .maintext{
+    
     font-family: 'Courier New', Courier, monospace;
     padding-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+a{
+    padding-top: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+a :visited{
+    color: mediumvioletred;
+}
+
+a :hover{
+    background-color: aqua;
 }

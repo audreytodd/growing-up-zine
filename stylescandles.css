@@ -8,11 +8,19 @@ body{
 }
 .candles{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
+    max-width: 100%;
+    animation: flicker 1s infinite;;
 }
-
+.noflame{
+animation: flicker 3s infinite;}
+@keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
 .candles img{
     width: 350px;
 }
@@ -29,9 +37,34 @@ body{
     display: flex;
     justify-content: center;
 }
+.mirror{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mirror img{
+    width: 500px;
+}
+a :hover{
+    background-color: aqua;
+}
+@media only screen and (max-width: 600px){
+    .mirror{
+        max-width: 100%;
+        width: 100%;
+    }
 
-@keyframes flicker {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+    .mirror img{
+        max-width: 100%;
+        width: 100%; 
+    }
+
+    .candles{
+        max-width: 100%;
+        width: 100% 
+    }
+    .candles img{
+        max-width: 100%;
+        width: 100% 
+    }
 }

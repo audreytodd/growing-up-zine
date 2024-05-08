@@ -10,24 +10,24 @@ body{
 }
 
 .maintext{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
     width: 100%;
-    height: 100%;
     font-size: larger;
 }
 
 .rightqs{
-padding-bottom: 10%;
-width: 100%;
-text-align: right;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: right;
 }
 
 .leftqs{
-padding-top: 10%;
-width: 100%;
-text-align: left;
+    padding-top: 50px;
+    width: 100%;
+    text-align: left;
 }
 
 .qmarksleft{
@@ -59,3 +59,33 @@ justify-content: center;
       transform: translate3d(4px, 0, 0);
     }
   }
+  a :hover{
+    background-color: aqua;
+}
+
+  @media only screen and (max-width: 600px) {
+    .maintext {
+        padding: 5;
+        font-size: x-large; 
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .qmarksright, .qmarksleft {
+        font-size: x-small; 
+    }
+    .rightqs{
+        padding-top: 50px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .leftqs{
+        width: 100%;
+        max-width: 100%;
+    }
+    .phone {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+}

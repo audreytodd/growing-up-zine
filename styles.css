@@ -26,17 +26,20 @@ a{
     text-align: center;
     padding-top: 50px;
 }
+a :hover{
+    background-color: aqua;
+}
 
 @media only screen and (max-width: 600px) {
     .clocks {
-        padding-top: 100px; /* Reduce top padding for clocks */
+        padding-top: 100px;
     }
 
     .clocks img {
-        width: 100px; /* Decrease clock image width on smaller screens */
+        width: 100px; 
     }
 
     .text {
-        padding-top: 200px; /* Reduce top padding for text */
+        padding-top: 200px;
     }
 }

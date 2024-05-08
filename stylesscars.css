@@ -8,16 +8,24 @@ body{
     text-align: center;
 
 }
+.knees{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+a :hover{
+    background-color: aqua;
+}
 @media only screen and (max-width: 600px){
-    body{
-        width: 100%;
 
-    }
-    .maintext{
-        padding-top: 315px;
-        padding-left: 10px;
+    .maintext {
+        padding-top: 325px; 
+        padding-left: 10px; 
         padding-right: 10px;
-        text-align: center;
+    }
+
+    .knees {
+        padding-top: 10px;
     }
 
 }

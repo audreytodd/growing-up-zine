@@ -32,6 +32,9 @@ text-align: center;
     padding-bottom: 20px;
 }
 
+a :hover{
+    background-color: aqua;
+}
 @media only screen and (max-width: 600px) {
     .bunnies {
         flex-direction: column; 

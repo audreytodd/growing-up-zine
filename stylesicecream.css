@@ -7,6 +7,10 @@ body{
     align-items: baseline; 
     padding-top: 2%; 
 }
+.concrete img{
+    width: 375px;
+    height: 700px;
+}
 header{
     margin: 5px;
     width: 100%;
@@ -23,11 +27,18 @@ footer{
     background-size: contain;
     background-repeat: repeat;
 }
+a :hover{
+    background-color: aqua;
+}
 
 @media only screen and (max-width: 600px){
     .concrete{
         width: 100%;
-
+        max-width: 100%;
+    }
+    .concrete img{
+        width: 100%;
+        max-width: 100%;
     }
     header{
         background-repeat: no-repeat;
