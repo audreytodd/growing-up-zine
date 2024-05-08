@@ -1,7 +1,7 @@
 body{
     background-color: rgb(209, 234, 255);
     font-family: 'Courier New', Courier, monospace;
-    margin: auto;
+    margin: 5;
 }
 
 .maintext{
@@ -11,7 +11,6 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     padding: 0%;
-    width: 100%;
 }
 .hands{
     animation: wiggle 5s infinite;
@@ -27,6 +26,19 @@ text-align: center;
 .crosswalk{
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    padding-bottom: 500px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bunnies {
+        flex-direction: column; /* Stack images vertically on small screens */
+        align-items: center; /* Center align images */
+    }
+
+    .crosswalk img {
+        width: 100%;
+        height: auto; 
+        max-width: 100%; 
+    }
 }

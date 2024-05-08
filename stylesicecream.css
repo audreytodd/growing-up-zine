@@ -7,3 +7,32 @@ body{
     align-items: baseline; 
     padding-top: 2%; 
 }
+header{
+    margin: 5px;
+    width: 100%;
+    height: 50%;
+    background-image: url(images/melting.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+footer{
+    margin: 5px;
+    width: 100%;
+    height: 50%;
+    background-image: url(images/melting.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+@media only screen and (max-width: 600px){
+    .concrete{
+        width: 100%;
+
+    }
+    header{
+        background-repeat: no-repeat;
+    }
+    footer{
+        background-repeat: no-repeat;
+    }
+}

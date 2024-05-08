@@ -1,9 +1,23 @@
 body{
+    background-image: url(images/scrapesback.jpg);
     background-color: rgb(255, 255, 208);
     font-family: 'Courier New', Courier, monospace;
 }
 .maintext{
-    padding-top: 25px;
+    padding-top: 100px;
     text-align: center;
+
+}
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+
+    }
+    .maintext{
+        padding-top: 315px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
 
 }
